@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+	background-color:#000000;
+}
+#wrapper {
+	width:1000px;
+	background-color:#FFFFFF;
+	margin: 0px auto;
+}
+#header {
+	background:url(../images/header-bg.png) repeat-x;
+	height:206px;
+}
+#logo {
+	float:right;
+	margin-top:44px;
+	margin-right:20px;
+}
+#slinks {
+	padding:155px 0 0 20px;
+}
+#menue {
+	background:url(../images/main--menue.png) no-repeat;
+	height:67px;
+	width:1000px;
+}
+#navbar {
+	float:right;
+	padding-right:0;
+}
+
+#navbar ul {	
+    float:right;
+	margin-right:0;
+}
+
+#navbar ul li{
+	float:right;
+	line-height:42px;
+	padding:0 20px;
+}
+
+#navbar ul li a{
+	float:right;
+	color:#a8a8a7;
+	text-decoration:none;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size:14px;
+}
+
+#navbar ul li:first-child a{
+	color:#b3400f;
+}
+
+#search {
+	direction:rtl;
+	float:left;
+	margin-left:20px;
+	margin-top:7px;
+	line-height:40px;
+}
+
+#search input[type=text] {
+	height:29px;
+	width:259px;
+	padding-right:10px;
+	border:1px solid #cfcfcf;
+	color:#989897;
+	font-size:15px;
+}
+
+#search input[type=submit] {
+	background:url(../images/search-Button.png) no-repeat;
+	width:69px;
+	height:29px;
+	border:0;
+}
+
+#content {
+	width:1000px;
+	clear:both;
+}
+#right-bar {
+	width:160px;
+	margin:0 20px;
+	float:right;
+}
+#right-menue {
+	background:url(../images/rightsiderounded.png) no-repeat;
+}
+#right-menue  a {
+	text-decoration:none;
+	color:#D0CCCC;
+}
+#right-menue h1{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color:#A69999;
+	text-align:center;
+}
+.right-ads{
+	text-align:center;
+	margin:10px auto;
+}
+.right-ads img{
+	width:128px;
+	height:150px;
+}
+.right-ads h2{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color:#F11F22;	
+}
+.right-ads h3{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color:#2B60F0;
+}
+.right-ads a{
+	text-decoration:none;	
+	color:#9A9292;
+}
+#left-content{
+	height:300px;
+}
+.upper-ads{
+	float:right;
+	text-align:center;
+	margin:10px 0 0 32px;
+}
+.upper-ads img{
+	width:128px;
+	height:150px;
+}
+.upper-ads h2{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color:#F11F22;	
+}
+.upper-ads h3{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color:#2B60F0;
+}
+.upper-ads a{
+	text-decoration:none;	
+	color:#9A9292;
+}
+
+#footer {
+	width:1000px;
+	height:50px;
+	clear:both;
+}
+
+#footer hr {
+	height:5px;
+	background-color:#D42629;
+	border:0;
+}
+#upper-left-content {
+	
+}
+#lower-left-content {
+	clear:both;
+	width:780px;
+	padding-top:20px;
+}
+#head-left{
+	background:url(../images/header-of-most-rated.png) no-repeat;
+	text-align:right;
+	color:#F9F5F6;
+	line-height:250%;
+	direction:rtl;
+	height:49px;
+	width:780px;
+}
+#head-left h1{
+	margin-right:20px;
+}
+#lower-left-content-body {
+	width:750px;
+	min-height:160px;
+	margin-left:20px;
+}
+.lower-book {
+	width:350px;
+	float:right;
+	margin:10px 0 0 20px;
+	direction:rtl;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color:#ADA7A7;
+	line-height:170%;
+}
+.lower-book:hover {
+	background-color:#F7DEDE;
+}
+.lower-book img {
+	float:right;
+	margin-left:7px;
+}
+#footer h2 {
+	text-align:center;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color:#948E8E;
+	line-height:200%;
+}
